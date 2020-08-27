@@ -54,3 +54,30 @@
 
 8. git diff:
     Xem thay đổi của các file có modified
+
+    Sau đó có thể sử dụng git add . và git commit để commit thay đổi
+
+9. Các thuật ngữ Working dir, Staging area, Respository:
+    a. Working dir:
+        Thư mục đang làm việc
+    b. Staging area:
+        Khi đã commit rồi mà thay đổi chỉnh sửa các file thì sẽ được add vào Staging area //chính là modified
+    c. Respository:
+        Lưu các thay đổi của các commit
+
+        muốn xem sử dụng git log
+
+        mẹo: sử dụng gitk để mởi giao diên người dùng
+
+10. check out -- <fileName>
+    Xóa bỏ các thay đổi chưa được commit của file
+
+11. git restore --staged <fileName>:
+    Unstage file đac được add vào Staging area
+
+12. Branching:
+    Kỹ thuật tạo nhánh mới trong git
+    a. git branch:
+        Xem nhánh hiện tại
+13. Merging:
+    Kỹ thuật ghép nhánh
