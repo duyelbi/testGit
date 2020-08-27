@@ -79,5 +79,9 @@
     Kỹ thuật tạo nhánh mới trong git
     a. git branch:
         Xem nhánh hiện tại
+    b. git checkout -b <branchName>:
+        tạo một branch mới và chuyển sang branch đó
+    c. git checkout <branchName>:
+        chuyển sang branch khác đã được tạo
 13. Merging:
     Kỹ thuật ghép nhánh
