@@ -87,3 +87,16 @@
     Kỹ thuật ghép nhánh
     a. git merge <branchName>:
         Ghép các commit của branch khác vào branch hiện tại.
+    b. git branch -D <branchName>:
+        Sau khi đã merge thì có thể xóa branch đó đi
+
+14. .gitignore:
+    từ chối commit những file không cần thiết
+    vd: node_modules // chiếm rất nhiều bộ nhớ, làm nặng dự án
+    tạo file .gitignore
+
+15. chalk:
+    giúp terminal có nhiều màu sắc hơn
+    npm install chalk --save
+
+16. github:
