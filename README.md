@@ -100,3 +100,9 @@
     npm install chalk --save
 
 16. github:
+    b1: Vào trang github tạo mới project
+    b3: copy link project
+    b2: git remote add origin https://github.com/duyelbi/testGit.git
+        git remote -v //kiểm tra
+    b3: git push
+        nếu không thành công thì sử dụng "git push -u origin master" sau đó đăng nhập vào github
