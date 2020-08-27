@@ -81,3 +81,5 @@
         Xem nhánh hiện tại
 13. Merging:
     Kỹ thuật ghép nhánh
+    a. git merge <branchName>:
+        Ghép các commit của branch khác vào branch hiện tại.
